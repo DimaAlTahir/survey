@@ -1,12 +1,63 @@
+body{
+    background: rgb(243,246,255);
+    background: radial-gradient(circle, rgba(243,246,255,1) 0%, rgba(243,246,255,1) 100%);
+}
+
 .framed{
 }
 
+h1{
+    font-family:Varela Round;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.containerD{
+    font-family:Varela Round;
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 .container{
+    font-family:Varela Round;
     text-align: center;
     background-color: white;
     padding:10px;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.main{
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    text-align: left;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 100%;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    padding:5px;
+    width: 50%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn:hover{
+    background-color: white;
+    border: solid 3px black;
+    color: black;
 }
