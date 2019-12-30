@@ -1,13 +1,11 @@
 body{
-    background: rgb(243,246,255);
-    background: radial-gradient(circle, #70ff6b 0%, #70ff6b 100%);
+    background: #70ff6b;
     font-family:Varela Round;
     color: white;
     text-align: justify;
 }
 
 h1{
-    font-family:Varela Round;
     font-weight: bolder;
     text-align: center;
 }
