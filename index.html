@@ -1,30 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Survey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Disclaimer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <h1 margin-bottom="30px">Option 1</h1>
-    <iframe width="100%" height="1300px" frameborder="0" marginheight="0" marginwidth="0" margin-bottom="30%" src="https://dimaaltahir.github.io/a2experiment" name="myFrame">Loading...</iframe>
+<div class="main">
+    <div class="containerD">
+        <h1>Evolution Borders in Web Design: Participant Information page</h1>
+        <p>
+            You are being invited to take part in a research study as part of a student project.
+            Before you decide it is important for you to understand why the research is being done and what it will involve.
+            Please take time to read the following information carefully and discuss it with others if you wish.
+            Please ask if there is anything that is not clear or if you would like more information.
+            Take time to decide whether or not you wish to take part. Thank you for reading this.
+        </p>
+
+        <li>Who will conduct the research?</li>
+        <p>Dima AlTahir</p>
+
+        <li>Title of the Research</li>
+        <p>Evolution Borders in Web Design</p>
+
+        <li>What is the aim of the research?</li>
+        <p>The main purpose of this research is to understand how borderless design became dominant in modern UIs.</p>
+
+        <li>Why have I been chosen?</li>
+        <p>
+            Your participation is voluntary.
+            You are, however, encouraged to participate as the research aims to cover a wide range of demographics.
+        </p>
+
+        <li>What would I be asked to do if I took part?</li>
+        <p>
+            If you take part in this research, you will be asked to observe two dummy sites and answer a survey about them.
+        </p>
+
+        <li>How will the data be collected?</li>
+        <p>The data will be collected through Google Forms and will be subject to Google Forms' privacy policy.</p>
+
+        <li>How is confidentiality maintained?</li>
+        <p>
+            Participant will not be asked to provide sensitive information for the research project.
+            All results will be annonymised in the report so that no names will be used.
+        </p>
+
+        <li>What happens if I do not want to take part or if I change my mind?</li>
+        <p>
+            It is up to you to decide whether or not to take part.
+            If you do decide to take part you will be given this information sheet to keep and be asked to sign a consent form.
+            If you decide to take part you are still free to withdraw at any time without giving a reason and without detriment to yourself.
+        </p>
+
+        <li>What is the duration of the research?</li>
+        <p>That depends on how long it takes you to complete the survey.</p>
+
+        <li>Will the outcomes of the research be published?</li>
+        <p>The finding of this research will be used in an academic report.</p>
+
+        <p>Contact for further information
+            Dima AlTahir, daaaltahir@uclan.ac.uk</p>
+    </div>
+
+    <div class="containerD">
+        <h1>Disclaimer (Notice to Survey Respondents):</h1>
+        <ul>
+            <li>The Originator of this survey solely responsible for its contents.</li>
+            <li>Your response to the survey is voluntary.</li>
+            <li>Your response will be used by the survey Originator only for the purpose identified by the Originator.</li>
+            <li>
+                If you are given an opportunity to submit free-form responses to a survey, please provide relevant and
+                responsible responses; refrain from including any sensitive information of any kind
+                (e g. credit card or bank account information).
+            </li>
+            <li>Please contribute to its effectiveness by responding only once.</li>
+            <li>
+                The Originator does not want you to, and you should not, include in your survey response any sensitive information of
+                any kind (eg, bank account information), and any confidential or proprietary information belonging to you or
+                another party, as The Originator cannot guarantee that access to such data will be kept confidential and secure.
+            </li>
+
+            <li>
+                You therefore agree that any information or materials that you, or individuals acting on your behalf,
+                provide to The Originator in your survey response will not be considered confidential or proprietary and
+                that The Originator cannot and will not be held responsible to protect such data if you were to include it in
+                your responses.
+            </li>
+            <li>The Originator reserves the right to terminate or withdraw the survey, at any time and for any reason.</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center" class="containerD">
+        <form action="Survey.html" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+            <input style="margin-bottom: 20px" type="checkbox" required name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+            <input class="btn" type="submit" required name="submit" value="Participate in Research" />
+        </form>
+    </div>
 </div>
-
-<br>
-
-<div class="container">
-    <h1 margin-bottom="30px">Option 2</h1>
-    <iframe width="100%" height="1300px" frameborder="0" marginheight="0" marginwidth="0" margin-bottom="30%" src="https://dimaaltahir.github.io/a2experiment1" name="myFrame">Loading...</iframe>
-</div>
-
-<br>
-
-<div class="container">
-    <h1 margin-bottom="30px">Survey</h1>
-    <iframe width="700" height="1300px" frameborder="0" marginheight="0" marginwidth="0" margin-bottom="30%" src="https://docs.google.com/forms/d/e/1FAIpQLSfXjYRR8RNZg-0JL0l2yMdkjXeBXDRnUBycqafUMtczqeN0Uw/viewform?embedded=true">Loading...</iframe>
-</div>
-
-
 </body>
 </html>

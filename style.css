@@ -1,6 +1,9 @@
 body{
     background: rgb(243,246,255);
-    background: radial-gradient(circle, rgba(243,246,255,1) 0%, rgba(243,246,255,1) 100%);
+    background: radial-gradient(circle, #70ff6b 0%, #70ff6b 100%);
+    font-family:Varela Round;
+    color: white;
+    text-align: justify;
 }
 
 .framed{
@@ -12,23 +15,25 @@ h1{
     text-align: center;
 }
 
+iframe{
+    width: 100%;
+}
+
 .containerD{
-    font-family:Varela Round;
-    background-color: white;
+    background-color: #262525;
     padding:10px;
-    border-radius: 5px;
     margin: auto;
     margin-bottom: 20px;
 }
 
 .container{
-    font-family:Varela Round;
     text-align: center;
-    background-color: white;
+    background-color: #262525;
     padding:10px;
-    border-radius: 5px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 98%;
 }
 
 .main{
@@ -42,9 +47,8 @@ ul{
 
 .btn {
     cursor: pointer;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
+    background-color: #70ff6b;
+    color: #262525;
     font-size: 100%;
     text-align: center;
     border: none;
@@ -58,6 +62,19 @@ ul{
 
 .btn:hover{
     background-color: white;
-    border: solid 3px black;
-    color: black;
+    color: #262525;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .main{
+        width: 100%;
+    }
+    .containerD{
+        width: 95%;
+    }
+    .container{
+        width: 90%;
+    }
 }
