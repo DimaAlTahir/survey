@@ -6,9 +6,6 @@ body{
     text-align: justify;
 }
 
-.framed{
-}
-
 h1{
     font-family:Varela Round;
     font-weight: bolder;
@@ -19,17 +16,10 @@ iframe{
     width: 100%;
 }
 
-.containerD{
-    background-color: #262525;
-    padding:10px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
 .container{
     text-align: center;
     background-color: #262525;
-    padding:10px;
+    padding:20px;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 20px;
