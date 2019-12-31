@@ -6,17 +6,19 @@ body{
 }
 
 h1{
+    font-family:Varela Round;
     font-weight: bolder;
     text-align: center;
 }
 
 iframe{
-    width: 98%;
+    width: 100%;
 }
 
 .container{
     text-align: center;
     background-color: #262525;
+    padding:20px;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -34,7 +36,7 @@ ul{
 
 .btn {
     cursor: pointer;
-    background-color: #69ff63;
+    background-color: #70ff6b;
     color: #262525;
     font-size: 100%;
     text-align: center;
