@@ -1,8 +1,22 @@
 body{
-    background: #69ff63;
+    background: #1fffc9;
     font-family:Varela Round;
     color: white;
     text-align: justify;
+}
+
+.highlight{
+    color: #1fffc9;
+}
+
+.talking{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li.talking{
+    margin-bottom: 3px;
 }
 
 h1{
@@ -36,7 +50,7 @@ ul{
 
 .btn {
     cursor: pointer;
-    background-color: #70ff6b;
+    background-color: #1fffc9;
     color: #262525;
     font-size: 100%;
     text-align: center;
@@ -65,5 +79,11 @@ only screen and (max-width: 760px),
     }
     .container{
         width: 90%;
+    }
+
+    .talking{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
