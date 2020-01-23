@@ -33,7 +33,7 @@ iframe{
 .container{
     border-radius: 15px;
     text-align: center;
-    background-image: linear-gradient(to right bottom, #ff8f0d, #ff7524, #fe5936, #f73b45, #eb1254);
+    background-image: linear-gradient(to right bottom, #f8a546, #f98940, #f76a43, #f1484a, #e71655);
     -webkit-box-shadow: 6px 6px 7px -1px rgba(255,143,13,0.45);
     -moz-box-shadow: 6px 6px 7px -1px rgba(255,143,13,0.45);
     box-shadow: 6px 6px 7px -1px rgba(255,143,13,0.45);
